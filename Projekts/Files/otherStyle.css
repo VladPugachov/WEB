@@ -1,0 +1,77 @@
+* {box-sizing: border-box;}
+
+body {font-family: Candara;
+  margin: 0;}
+
+.header {padding: 80px;
+  color: rgb(39, 66, 123);
+  text-align: center;
+  background: url(mountains.jpeg) no-repeat center;
+  background-size: cover;}
+
+.header h1 {font-size: 50px;}
+
+.header h2 {font-size: 30px;}
+
+.navbar {overflow: hidden;
+  background-color: rgb(39, 66, 123);}
+
+.navbar a {float: left;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;}
+
+.navbar a.right{float: right;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;}
+
+.navbar a:hover {background-color: #ddd;
+  color: rgb(39, 66, 123);}
+
+.navbar a.active {background-color: #ddd;
+  color: rgb(39, 66, 123);}
+
+.row {display: flex;
+  flex-wrap: wrap;}
+
+.side {flex: 30%;
+  color: white;
+  background: url(blue.jpg);
+  background-color: #e1dcdc;
+  padding: 20px;}
+
+.main {flex: 70%;
+  background: url(texture.jpg);
+  background-color: white;
+  padding: 20px;}
+
+.footer {padding: 10px;
+  color: white;
+  text-align: center;
+  background: rgb(39, 66, 123);}
+
+.contacts {margin: 100px;
+  text-align: center;}
+
+h1 {margin-left: 50px;}
+h2 {margin-left: 50px;}
+h3 {margin-left: 50px;}
+
+p {font-size: 20px;
+  margin-right: 50px;
+margin-left: 50px;}
+
+hr {border-style: solid none none none;
+  border-width: 5px;
+    border-color: rgb(112, 143, 209);}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;}}
+
+@media screen and (max-width: 360px) {
+    .row, .navbar{
+        flex-direction: column;}}   
