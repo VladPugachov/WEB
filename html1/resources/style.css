@@ -11,6 +11,14 @@ header a {
     color:aliceblue;
 }
 
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
 .viss-ekrans {
     width: 100%;
 }
