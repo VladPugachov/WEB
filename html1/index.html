@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="resources/style.css">
 </head>
 
-<body style="margin: 0; padding: 0;">
+<body>
 
     <!-- Header -->
     <header>
@@ -19,24 +19,33 @@
         </div>
     </header>
 
-    <div id="pavasaris">
+    <main id="pavasaris">
         <img class="viss-ekrans" src="resources/Pavasaris.jpg" alt="Pavasaris">
-        <div>
-            <h1>Pavasaris</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et voluptatem nostrum facilis delectus
-                voluptatum accusantium deserunt dolorum esse ea. Vel, ipsum! Veritatis ab quod dolorum iure asperiores
-                doloribus expedita?</p>
+        <div class="d-flex-f-d-row">
+            <img src="resources/Pavasaris.jpg" class="w-50" alt="Pavasaris">
+            <div>
+                <h1>Pavasaris</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa et voluptatem nostrum facilis
+                    delectus
+                    voluptatum accusantium deserunt dolorum esse ea. Vel, ipsum! Veritatis ab quod dolorum iure
+                    asperiores
+                    doloribus expedita?</p>
+            </div>
         </div>
-        <div id="vasara">
-            <img src="resources/Vasara.jpg" alt="Vasara">
-            <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1><br>
+        <div id="vasara" class="d-flex-f-d-row-reverse">
+            <img class="w-50" src="resources/Vasara.jpg" alt="Vasara">
+            <div class="w-50">
+                <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum culpa quae mollitia eveniet
+                    minima
+                    adipisci error enim eius vel nostrum veritatis repellat, facere autem ad. Fuga repellat odit itaque
+                    quibusdam.</p>
+            </div><br>
         </div>
 
-        <div id="plava" style="display: flex; flex-direction: row;">
-            <div style="display: block;">
-                <img style="display: block; width:100%" src="resources/Plava.jpg" alt="Plava">
-            </div>
-            <div style="display: block;">
+        <div id="plava" class="d-flex-f-d-row">
+            <img class="w-50" src="resources/Plava.jpg" alt="Plava">
+            <div class="w-50">
                 <h1>Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illum consequuntur hic tempora amet
                     consequatur accusantium eligendi eius, voluptas neque quis itaque maiores dolorem delectus libero?
@@ -45,18 +54,18 @@
         </div><br>
         <div>
             <table>
-                    <tr>
-                      <th>Pirmais</th>
-                      <th>Otrais</th>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>2</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>4</td>
-                    </tr>
+                <tr>
+                    <th>Pirmais</th>
+                    <th>Otrais</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
             </table><br>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d69616.05546547634!2d24.1106944!3d56.957337599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1slv!2slv!4v1690734133712!5m2!1slv!2slv"
@@ -71,8 +80,8 @@
                 <li>
                     <p>Nomaini visiem tekstiem fontu.</p>
                 </li>
-                <li></li>
-                <p>Sakārto bilžu un tekstu novietojumu.</p>
+                <li>
+                    <p>Sakārto bilžu un tekstu novietojumu.</p>
                 </li>
                 <li>
                     <p>Pieliec tekstu zem virsrakstiem.</p>
@@ -97,12 +106,12 @@
                 </li>
             </ul>
         </div>
-
-        <!-- Footer -->
-        <footer>
-            <p>Šeit ir tukšs footers</p>
-            <p>Šeit ir tukšs footers vēlreiz</p>
-        </footer>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>Šeit ir tukšs footers</p>
+        <p>Šeit ir tukšs footers vēlreiz</p>
+    </footer>
 
 </body>
 
